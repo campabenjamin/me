@@ -60,22 +60,19 @@
             border-radius: 10px;
         }
         /* Fun fact image - small and floated right */
-        .fun-fact-img {
-            float: right;
-            margin: 10px 0 10px 15px;
-            max-width: 200px;
-            border-radius: 8px;
-        }
-        ul {
-            text-align: left;
-        }
-        footer {
-            margin-top: 20px;
-            font-size: 0.9em;
-            font-weight: bold;
-            color: #f1faee;
-            clear: both;
-        }
+.fun-fact-img {
+    float: right;
+    margin: 10px 0 10px 15px;
+    max-width: 250px; /* slightly larger */
+    border-radius: 8px;
+}
+
+/* Fun fact box bigger to fit image properly */
+.fun-fact-section {
+    min-height: 280px;  /* ensures space for the image */
+    overflow: auto;     /* clears float so text doesn’t spill out */
+}
+
     </style>
 </head>
 <body>
@@ -140,12 +137,13 @@
             </ul>
         </div>
 
-        <!-- Fun Fact -->
-        <div class="section">
-            <h2>Fun Fact</h2>
-            <img src="BenTrevi.JPG" alt="Benjamin Campa" class="fun-fact-img">
-            <p>A fun fact about me is that I went to Study Abroad Last Semester.</p>
-        </div>
+       <!-- Fun Fact -->
+<div class="section fun-fact-section">
+    <h2>Fun Fact</h2>
+    <img src="BenTrevi.jpg" alt="Benjamin Campa" class="fun-fact-img">
+    <p>A fun fact about me is that I went to Study Abroad Last Semester.</p>
+</div>
+
 
         <!-- Footer -->
         <footer>
