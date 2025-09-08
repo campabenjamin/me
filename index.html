@@ -1,90 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About Me</title>
+    <meta charset="UTF-8">
+    <title>Benjamin Campa’s Introduction Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            line-height: 1.6;
+            background-color: #1d3557; /* dark navy */
+            margin: 0;
+            padding: 0;
+            text-align: center;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .main-info {
-            background: #333;
-            color: #fff;
+            background-color: #fdfdfd; /* off white */
+            margin: 0 auto;
             padding: 20px;
-            text-align: center;
+            max-width: 850px;
         }
-        .main-info h1 {
-            margin: 0;
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
         }
-        .hobbies, .career, .course, .fun-fact {
-            background: #e7e7e7;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 8px;
+        h2 {
+            text-align: left;
+            font-size: 20px;
+            border-bottom: 2px solid #ccc;
+            margin-top: 20px;
+        }
+        p {
+            text-align: left;
+            line-height: 1.6;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         img.profile {
-            display: block;
-            margin: 20px auto;
-            width: 200px;
+            margin-top: 20px;
+            max-width: 90%;
             height: auto;
-            border-radius: 50%;
-            border: 3px solid #333;
+            border-radius: 10px;
+        }
+        .section {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+            padding: 15px;
+            text-align: left;
+        }
+        ul {
+            text-align: left;
         }
         footer {
-            text-align: center;
             margin-top: 20px;
             font-size: 0.9em;
-            color: #555;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="main-info">
-            <h1>Your Name: Benjamin Campa</h1>
-            <p>Preferred Name: Ben</p>
-            <p>Email: <a href="mailto:benjaminacampa@lewisu.edu">bcampa@lewisu.edu</a></p>
-            <p>Discord: campabenjamin </p>
-            <p>Current/Recent Job Title: Flyer Guide</p>
-        </header>
+        <h1>Benjamin Campa’s Introduction Website</h1>
+        <p>Email: <a href="mailto:bcampa@lewisu.edu">bcampa@lewisu.edu</a></p>
+        <p>Discord: CampaBen</p>
 
-        <!-- Headshot -->
-        <img src="benjamin.jpg" alt="Benjamin Campa Photo" class="profile">
+        <!-- Profile Picture -->
+        <img src="Ben.jpg" alt="Benjamin Campa" class="profile">
 
-        <section class="career">
-            <h2>Job Responsibilities</h2>
-            <p>Helping students feel welcome to the university by offering them resources that are available. </p>
-        </section>
+        <!-- Quick Info Section -->
+        <div class="section">
+            <h2>Quick Info</h2>
+            <p><b>Year at Lewis:</b> Junior</p>
+            <p><b>Major:</b> Computer Science</p>
+            <p><b>Reason for pursuing degree:</b> I want to combine my passion for technology and problem-solving with a career that allows me to innovate and help others.</p>
+        </div>
 
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>Playing the Bass, Listening to Music, Traveling, Hanging out with Friends.</p>
-        </section>
+        <!-- Introduction -->
+        <div class="section">
+            <h2>Introduction</h2>
+            <p>Hello! My name is Benjamin Campa. I’m excited to be at Lewis University and continue developing my skills in computer science. I’ve always been fascinated by how technology can impact lives, and I’m looking forward to applying what I learn here toward my future goals. I have one brother who graduated from Lewis University.</p>
+        </div>
 
-        <section class="career">
-            <h2>Reasons for Pursuing This Degree</h2>
-            <p>My reason for pursuing this degree is because I want to be able to work in Law Enforcement in Digital Forensics.</p>
-        </section>
+        <!-- What I Hope to Learn -->
+        <div class="section">
+            <h2>What I Hope to Learn in this Course</h2>
+            <p>I hope to gain a stronger foundation in software engineering and improve my technical skills. </p>
+        </div>
 
-        <section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>I am taking this course because I need to take it for my degree.</p>
-        </section>
+        <!-- Hobbies Section -->
+        <div class="section">
+            <h2>My Favorite Hobbies/Activities</h2>
+            <ul>
+                <li>Playing Bass</li>
+                <li>Going to the gym</li>
+                <li>Traveling </li>
+                <li>Spending time with friends</li>
+            </ul>
+        </div>
 
-        <section class="fun-fact">
+        <!-- Fun Fact -->
+        <div class="section">
             <h2>Fun Fact</h2>
-            <p>I studied abroad for 3 months in Rome and got to see Conor McGregor while in Florence.</p>
-        </section>
+            <p>A fun fact about me is that I went to Study Abroad Last Semester</p>
+        </div>
 
+        <!-- Footer -->
         <footer>
-            Last Updated on September 7, 2025
+            Last date updated: 09/08/2025
         </footer>
     </div>
 </body>
 </html>
+
