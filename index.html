@@ -1,65 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About Me</title>
+    <title>About Me - Benjamin Campa</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
         }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
         }
-        .main-info {
+        header {
             background: #333;
             color: #fff;
             padding: 20px;
+            text-align: center;
         }
-        .main-info h1 {
+        header h1 {
             margin: 0;
         }
-        .hobbies, .career, .course, .fun-fact{
+        header p a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .section {
             background: #e7e7e7;
             padding: 15px;
-            margin-bottom: 10px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+        img.profile {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="main-info">
-            <h1>Your Name:Benjamin Campa </h1>
-            <p>Preferred Name: Ben</p>
-            <p>Current/Recent Job Title: Flyer Guide</p>
+        <header>
+            <h1>Benjamin Campa</h1>
+            <p>Email: <a href="mailto:bcampa@lewisu.edu">bcampa@lewisu.edu</a></p>
+            <p>Discord: ben_campa#1234</p>
         </header>
 
-        <section class="career">
-            <h2>Job Responsibilities</h2>
-            <p>Helping students feel welcome to the university by offering them resources that are available. </p>
+        <!-- Headshot -->
+        <img src="Ben.jpg" alt="Benjamin Campa Photo" class="profile">
+
+        <!-- Introduction -->
+        <section class="section">
+            <h2>Introduction</h2>
+            <p>Hello! My name is Benjamin Campa, but most people call me Ben. Im currently a Junior at Lewis Univerisity and I'm majoring in Computer Science with a minor in CyberSecurity. I have 1 brother who also graduated from Lewis and I live with my parents. </p>
         </section>
 
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p> Playing the Bass, Listening to Music, Traveling, Hanging out with Friends. </p>
+        <!-- What I Hope to Learn -->
+        <section class="section">
+            <h2>What I Hope to Learn in this Course</h2>
+            <ul>
+                <li>Building well-structured and visually appealing web pages</li>
+                <li>Applying CSS styling for professional designs</li>
+                <li>Understanding the basics of HTML and responsive layouts</li>
+                <li>Gaining hands-on experience for future projects</li>
+            </ul>
         </section>
 
-        <section class="career">
-            <h2>Reasons for Pursuing This Degree</h2>
-            <p>My reason for pursuing this degree is because I want to be able to work in Law Enforcement in Digital Forensics. </p>
+        <!-- Hobby -->
+        <section class="section">
+            <h2>My Favorite Hobby / Activity</h2>
+            <p>One of my favorite hobbies is playing the bass. Music has always been a big part of my life, and I enjoy learning new songs, practicing with friends, and discovering different genres. Playing bass helps me relax, focus, and express myself creatively.</p>
         </section>
 
-        <section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p> I am taking this course because I need to take it for my degree. </p>
-        </section>
-
-        <section class="fun-fact">
+        <!-- Fun Fact -->
+        <section class="section">
             <h2>Fun Fact</h2>
-            <p>I did study abroad for 3 months in Rome and got to see Connor Mcgregor while in Florence.  </p>
+            <p>I studied abroad in Rome for 3 months and even got the chance to see Conor McGregor while visiting Florence!</p>
         </section>
+
+        <!-- Last Updated -->
+        <footer>
+            Last Updated on September 7, 2025
+        </footer>
     </div>
 </body>
 </html>
+
